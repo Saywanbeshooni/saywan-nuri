@@ -1,0 +1,74 @@
+.body
+{
+	background: #262626;
+	color: white;
+	display: grid;
+	place-items: center;
+	width: 100%;
+	height: 100vh;
+padding: 0;
+margin: 0;
+font-family: 'Josefin Sans',sans-serif;
+box-sizing: border-box;
+
+}
+
+
+
+.BBB
+{
+color: #f9004d;
+font-size: 35px;
+letter-spacing: 1px; 
+cursor: pointer;
+}
+
+.b{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 15px 35px;
+	border-radius: 40px;
+	transition: .4s; 
+
+}
+
+.b:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+.bb{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 15px 30px;
+	border-radius: 40px;
+	transition: .4s; 
+	float: right;
+}
+.bb:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+img
+{
+	height: 700px;
+	width: 900px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 40px;
+}
+div{
+position: relative;
+height: 1000px;
+
+}

@@ -1,0 +1,169 @@
+*
+{
+padding: 0;
+margin: 0;
+font-family: 'Josefin Sans',sans-serif;
+box-sizing: border-box;
+
+}
+
+
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h3{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+ul,li{
+    color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+img
+{
+    border-radius: 40px;
+}
+.skill
+{
+width: 500px;
+margin: 60px auto;
+color: #fff;
+padding: 20px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.skill li{
+margin: 20px 0;
+padding: 10px;
+}
+.bar
+{
+    background: #353b48;
+    display: block;
+height: 20px;
+border: 1px solid rgba(0,0,0,0.3);
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+}
+.bar:hover
+{
+box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.24);
+
+}
+.bar span{
+height: 20px;
+float: left;
+background:linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.ccc
+{
+    width:50%;
+    animation: ccc 3s;
+}
+.HTML
+{
+    width:80%;
+    animation: HTML 3s;
+}
+.CSS
+{
+    width:70%;
+    animation:CSS 3s;
+}
+.JavaScript
+{
+    width:40%;
+    animation: JavaScript 3s;
+}
+@keyframes ccc{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes HTML{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes CSS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes JavaScript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+
+	font-size: 14px; 
+}
